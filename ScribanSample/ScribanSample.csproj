@@ -8,8 +8,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Bogus" Version="35.6.2" />
-    <PackageReference Include="Scriban" Version="6.0.0" />
+    <PackageReference Include="Bogus" Version="35.6.5" />
+    <PackageReference Include="Scriban" Version="7.2.1" />
   </ItemGroup>
 
 </Project>

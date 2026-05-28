@@ -3,6 +3,9 @@ using Scriban;
 using Scriban.Runtime;
 using ScribanSample;
 
+// https://github.com/scriban/scriban/blob/master/doc/language.md
+// https://github.com/scriban/scriban/blob/master/doc/builtins.md
+
 var template = Template.Parse("Hello {{ name }}!");
 var result = await template.RenderAsync(new { Name = "World" });
 
